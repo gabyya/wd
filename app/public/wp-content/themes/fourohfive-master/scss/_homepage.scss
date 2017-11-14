@@ -1,0 +1,49 @@
+// Styles for Homepage
+
+.intro {
+	display: flex;
+		align-items: center;
+		padding: 50px;
+}
+
+
+.image_wrapper {
+	position: relative;
+}
+
+.image_description{
+	position: absolute;
+		top: 132px;
+		left: 60px;
+		color: white;
+		font-size: 80px;
+		line-height: 100px;
+}
+
+
+.about_product {
+		display: flex;
+		align-items: center;
+		padding: 50px;
+}
+
+.team {
+	display: flex;
+		align-items: center;
+		padding: 50px;
+
+}
+
+.team_members {
+	display: flex;
+		align-items: left;
+		padding: 50px;
+}
+
+.contact {
+
+}
+
+.connect {
+	
+}
