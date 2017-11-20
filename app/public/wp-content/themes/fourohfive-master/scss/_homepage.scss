@@ -1,11 +1,21 @@
 // Styles for Homepage
 
 .intro {
-	display: flex;
 		align-items: center;
-		padding: 50px;
+		padding: 150px;
 }
 
+.team {
+		align-items: center;
+		padding: 100px;
+}
+
+.about_product {
+	align-items: center;
+		padding: 150px;
+		margin-top: 70px;
+		margin-bottom: 70px;
+}
 
 .image_wrapper {
 	position: relative;
@@ -13,37 +23,35 @@
 
 .image_description{
 	position: absolute;
-		top: 132px;
-		left: 60px;
+		top: 64px;
+		left: 20px;
 		color: white;
-		font-size: 80px;
-		line-height: 100px;
+		font-size: 30px;
+		line-height: 1.2;
+		font-family: 'Montserrat', sans-serif;
 }
 
+@media screen and (min-width: 640px) {
+	.image_description{
+		display:flex;
+		top:132px;
+		left: 60px;
+		font-size: 80px;
+	}
+}
 
 .about_product {
-		display: flex;
-		align-items: center;
-		padding: 50px;
-}
-
-.team {
-	display: flex;
 		align-items: center;
 		padding: 50px;
 
 }
 
-.team_members {
-	display: flex;
-		align-items: left;
-		padding: 50px;
-}
-
-.contact {
+.second_title {
+	font-family: 'Montserrat: 500', sans-serif;
 
 }
 
-.connect {
-	
+.second_description {
+	font-family: 'Montserrat:400', sans-serif;
 }
+

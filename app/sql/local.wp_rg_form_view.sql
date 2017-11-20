@@ -1,0 +1,6 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+INSERT INTO `wp_rg_form_view` VALUES
+(1,3,"2017-11-11 22:38:59","",3),
+(2,3,"2017-11-14 02:05:18","",4);

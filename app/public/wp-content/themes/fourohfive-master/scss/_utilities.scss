@@ -1,1 +1,29 @@
 // Utility Classes
+
+.flex {
+	display:flex;
+		align-items: center;
+}
+
+@media screen and (min-width: 640px) {
+	.flex-md{
+		display:flex;
+	}
+}
+
+
+//padding class
+
+.py {
+	padding-top:$spacer-2x-y;
+	padding-bottom: $spacer-2x-y;
+}
+
+
+//Grid Styles
+
+.grid-two-thirds {
+	display:grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 100px;
+}

@@ -4,9 +4,12 @@
     	the_post_thumbnail('full', ['class' => 'img-fluid']);
     ?>
 
-    <h2 class="image_description">
-        <?php the_field ('featured_text') ?>
-    </h2>
+    <div class="flex">
+        <h2 class="image_description">
+            <?php the_field ('featured_text') ?>
+        </h2>
+    </div>
+
 </div>
 
 
@@ -21,7 +24,7 @@
 </div>
 
 
-<div class="images">
+<div class="flex">
     <?php
 
     // check if the repeater field has rows of data
@@ -31,7 +34,7 @@
         while ( have_rows('break_image') ) : the_row();
             ?>
 
-            <img src="<?php the_sub_field ('image');?>" alt="">
+            <img class="images img-fluid" src="<?php the_sub_field ('image');?>" alt="">
 
             
         <?php endwhile; ?>
@@ -57,7 +60,7 @@
 </div>
 
 
-<img src="<?php the_field ('second_break_image');?>" alt="">
+<img class="img-fluid" src="<?php the_field ('second_break_image');?>" alt="">
 
 
 <div class="team">
@@ -73,7 +76,7 @@
 
 
 
-<div class="team_members">
+<div class="flex-md">
     <?php
 
     // check if the repeater field has rows of data
@@ -83,15 +86,20 @@
         while ( have_rows('section_grid') ) : the_row();
             ?>
 
-            <img src="<?php the_sub_field ('grid_image');?>" alt="">
+            <div class="deets text-center">
+                <img class= "person img-fluid" src="<?php the_sub_field ('grid_image');?>" alt="">
 
-            <h3>
-                <?php the_sub_field ('grid_title') ?>
-            </h3>
+                    <div class="py">
+                        <h3 class= "person_description">
+                            <?php the_sub_field ('grid_title') ?>
+                        </h3>
 
-            <p>
-                <?php the_sub_field ('grid_description') ?>
-            </p>
+                        <p class="person_image">
+                            <?php the_sub_field ('grid_description') ?>
+                        </p>
+                    </div>
+
+            </div>
 
             
         <?php endwhile; ?>
@@ -104,33 +112,43 @@
 </div>
 
 
-        <img src="<?php the_field ('third_break_image');?>" alt="">
-
-<div class="contact">
-
-        <h3>
-            <?php the_field ('contact') ?>
-        </h3>
-
-        <p>
-            <?php the_field ('contact_description') ?>
-        </p>
-</div>
+        <img class="img-fluid" src="<?php the_field ('third_break_image');?>" alt="">
 
 
-<div class="connect">
-        <h3>
-            <?php the_field ('connect') ?>
-        </h3>
 
-        <p>
-            <?php the_field ('connect_description') ?>
-        </p>
+<div class="container">
+
         
-        <p>
-            <?php the_field ('location') ?>
-        </p>
+            <h3>
+                <?php the_field ('contact') ?>
+            </h3>
+
+            <p>
+                <?php the_field ('contact_description') ?>
+            </p>
+        
+            <div class="grid-two-thirds">
+                <div class="content">
+                    <?php the_content();?>
+                </div>
+
+                <div class="connect">
+                    <h3>
+                        <?php the_field ('connect') ?>
+                    </h3>
+
+                    <p>
+                        <?php the_field ('connect_description') ?>
+                    </p>
+                    
+                    <p>
+                        <?php the_field ('location') ?>
+                    </p>
+                </div>
+            </div>
+
+
 </div>
 
 
-<?php the_content();?>
+

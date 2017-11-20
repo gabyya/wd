@@ -1,0 +1,33 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+INSERT INTO `wp_usermeta` VALUES
+(1,1,"nickname","gabyalvarado"),
+(2,1,"first_name",""),
+(3,1,"last_name",""),
+(4,1,"description",""),
+(5,1,"rich_editing","true"),
+(6,1,"comment_shortcuts","false"),
+(7,1,"admin_color","fresh"),
+(8,1,"use_ssl","0"),
+(9,1,"show_admin_bar_front","true"),
+(10,1,"locale",""),
+(11,1,"wp_capabilities","a:1:{s:13:\"administrator\";b:1;}"),
+(12,1,"wp_user_level","10"),
+(13,1,"dismissed_wp_pointers",""),
+(14,1,"show_welcome_panel","1"),
+(15,1,"session_tokens","a:1:{s:64:\"afed0d77bc07b0495bcd756ffc70cca96b67e27264853eb167e09b0638737000\";a:4:{s:10:\"expiration\";i:1510801458;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:121:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36\";s:5:\"login\";i:1510628658;}}"),
+(16,1,"wp_dashboard_quick_press_last_post_id","93"),
+(17,1,"community-events-location","a:1:{s:2:\"ip\";s:12:\"192.168.95.0\";}"),
+(18,1,"gform_recent_forms","a:1:{i:0;s:1:\"3\";}"),
+(19,1,"closedpostboxes_acf-field-group","a:0:{}"),
+(20,1,"metaboxhidden_acf-field-group","a:1:{i:0;s:7:\"slugdiv\";}"),
+(21,1,"closedpostboxes_page","a:0:{}"),
+(22,1,"metaboxhidden_page","a:5:{i:0;s:12:\"revisionsdiv\";i:1;s:16:\"commentstatusdiv\";i:2;s:11:\"commentsdiv\";i:3;s:7:\"slugdiv\";i:4;s:9:\"authordiv\";}"),
+(23,1,"meta-box-order_page","a:4:{s:15:\"acf_after_title\";s:0:\"\";s:4:\"side\";s:36:\"submitdiv,pageparentdiv,postimagediv\";s:6:\"normal\";s:131:\"acf-group_5a035a005de8b,acf-group_5a035103b9024,acf-group_5a035b96c1066,revisionsdiv,commentstatusdiv,commentsdiv,slugdiv,authordiv\";s:8:\"advanced\";s:0:\"\";}"),
+(24,1,"screen_layout_page","2"),
+(25,1,"wp_user-settings","mfold=o&libraryContent=browse&editor=tinymce"),
+(26,1,"wp_user-settings-time","1510386809"),
+(27,1,"acf_user_settings","a:0:{}"),
+(28,1,"managenav-menuscolumnshidden","a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}"),
+(29,1,"metaboxhidden_nav-menus","a:1:{i:0;s:12:\"add-post_tag\";}");
