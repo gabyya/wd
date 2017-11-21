@@ -586,6 +586,10 @@ h1 {
   font-family: 'Montserrat:400', sans-serif;
 }
 
+.images {
+  max-width: 100%;
+}
+
 .flex {
   display: -ms-flexbox;
   display: flex;

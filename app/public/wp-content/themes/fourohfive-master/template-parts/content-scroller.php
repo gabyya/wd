@@ -25,25 +25,7 @@
 
 
 <div class="flex">
-    <?php
-
-    // check if the repeater field has rows of data
-    if( have_rows('break_image') ):
-
-        // loop through the rows of data
-        while ( have_rows('break_image') ) : the_row();
-            ?>
-
-            <img class="images img-fluid" src="<?php the_sub_field ('image');?>" alt="">
-
-            
-        <?php endwhile; ?>
-
-        <?php else : ?>
-
-        
-
-    <?php endif; ?>
+   <img class="img-fluid" src="<?php the_field ('break_image');?>" alt="">
 </div>
 
 
