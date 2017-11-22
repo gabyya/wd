@@ -446,6 +446,18 @@ template {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #13245D;
+}
+
+h3 {
+  padding-top: 40px;
+  color: #13245D;
 }
 
 .text-center {
@@ -590,6 +602,16 @@ h1 {
   max-width: 100%;
 }
 
+.container {
+  padding-top: 30px;
+}
+
+.person_image {
+  padding-bottom: 150px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
 .flex {
   display: -ms-flexbox;
   display: flex;
@@ -614,6 +636,18 @@ h1 {
   -ms-grid-columns: 2fr 1fr;
       grid-template-columns: 2fr 1fr;
   grid-gap: 100px;
+}
+
+.grid-one-third {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  grid-gap: 100px;
+}
+
+.container {
+  align: center;
 }
 
 html {

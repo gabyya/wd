@@ -27,3 +27,13 @@
 	grid-template-columns: 2fr 1fr;
 	grid-gap: 100px;
 }
+
+.grid-one-third {
+	display:grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 100px;
+}
+
+.container {
+	align: center;
+}

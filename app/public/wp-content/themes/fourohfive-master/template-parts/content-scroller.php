@@ -34,11 +34,15 @@
     <?php the_field ('second_title') ?>
     </h2>
 
-    <img src="<?php the_field ('product_image');?>" alt="">
+    <div class="">
+    <img class="grid-one-third" src="<?php the_field ('product_image');?>" alt="">
+    </div>
 
-    <p>
-    <?php the_field ('second_description') ?>
-    </p>
+    <div>
+        <p>
+        <?php the_field ('second_description') ?>
+        </p>
+    </div>
 </div>
 
 
