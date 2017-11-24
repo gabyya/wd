@@ -460,6 +460,10 @@ h3 {
   color: #13245D;
 }
 
+p {
+  font-size: 20px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -612,6 +616,40 @@ h3 {
   padding-left: 40px;
 }
 
+.about_product {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.download {
+  padding-top: 80px;
+}
+
+.sensor {
+  padding-left: 70px;
+  padding-right: 80px;
+}
+
+.navbar {
+  position: fixed;
+  right: 30px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #13245D;
+}
+
 .flex {
   display: -ms-flexbox;
   display: flex;
@@ -638,18 +676,25 @@ h3 {
   grid-gap: 100px;
 }
 
-.grid-one-third {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 2fr;
-      grid-template-columns: 1fr 2fr;
-  grid-gap: 100px;
-}
-
 .container {
   align: center;
 }
 
+.grid-thirds {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (min-width: 640px) {
+  .grid-thirds-md {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 html {
   box-sizing: border-box;
 }
