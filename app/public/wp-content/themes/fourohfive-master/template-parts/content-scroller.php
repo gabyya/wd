@@ -56,7 +56,7 @@
     <?php the_field ('second_title') ?>
     </h2>
 
-    <div class="about_product">
+    <div class="about_product ">
         <img class="grid-one-third" src="<?php the_field ('product_image');?>" alt="">
             
         <p class="sensor">

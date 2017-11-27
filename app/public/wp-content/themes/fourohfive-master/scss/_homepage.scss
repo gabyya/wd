@@ -64,8 +64,8 @@
 	padding-top: 30px;
 }
 
-.person_image {
-	padding-bottom: 150px;
+.person_description {
+	padding-bottom: 80px;
 	padding-right: 40px;
 	padding-left: 40px;
 }
@@ -89,23 +89,20 @@
 .navbar {
 	position: fixed;
 	right: 30px;
-
-
 }
+
 
 a:hover {
         text-decoration: none;
         color: white;
-      }
+}
 
-      a:link {
-        text-decoration: none;
-        color: white;
-      }
-
-      a:visited {
+a:link {
         text-decoration: none;
         color: #13245D;
-      }
+}
 
-
+a:visited {
+        text-decoration: none;
+        color: #13245D;
+}

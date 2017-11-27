@@ -17,6 +17,7 @@
 
 
 
+
 			<?php /* Close the #content div from header.php */ ?>
 			</div>
 

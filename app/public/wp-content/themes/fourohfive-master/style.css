@@ -461,7 +461,7 @@ h3 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .text-center {
@@ -610,8 +610,8 @@ p {
   padding-top: 30px;
 }
 
-.person_image {
-  padding-bottom: 150px;
+.person_description {
+  padding-bottom: 80px;
   padding-right: 40px;
   padding-left: 40px;
 }
@@ -642,7 +642,7 @@ a:hover {
 
 a:link {
   text-decoration: none;
-  color: white;
+  color: #13245D;
 }
 
 a:visited {
