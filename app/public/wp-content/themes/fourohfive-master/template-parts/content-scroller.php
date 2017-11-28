@@ -59,9 +59,11 @@
     <div class="about_product ">
         <img class="grid-one-third" src="<?php the_field ('product_image');?>" alt="">
             
-        <p class="sensor">
-            <?php the_field ('second_description') ?>
-        </p>
+        <div class="sensor_app ">
+            <p class="sensor">
+                <?php the_field ('second_description') ?>
+            </p>
+        </div>
         
     </div>
 </div>

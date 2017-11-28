@@ -461,7 +461,7 @@ h3 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .text-center {
@@ -614,11 +614,13 @@ p {
   padding-bottom: 80px;
   padding-right: 40px;
   padding-left: 40px;
+  text-size: 14px;
 }
 
 .about_product {
   display: -ms-flexbox;
   display: flex;
+  padding-left: 120px;
 }
 
 .download {
@@ -626,8 +628,8 @@ p {
 }
 
 .sensor {
-  padding-left: 70px;
-  padding-right: 80px;
+  padding-left: 90px;
+  padding-right: 100px;
 }
 
 .navbar {
@@ -648,6 +650,11 @@ a:link {
 a:visited {
   text-decoration: none;
   color: #13245D;
+}
+
+.footer {
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .flex {
